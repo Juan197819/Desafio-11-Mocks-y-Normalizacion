@@ -1,0 +1,72 @@
+*{
+    text-decoration: none;
+    color: black
+}
+
+body{
+    background-color: rgba(127, 255, 212, 0.315);
+}
+h1{
+    text-align: center;
+    color: rgb(42, 42, 164);
+    text-decoration: underline;
+}
+h2{
+    color:rgb(4, 4, 165);
+    font-size: 30px;
+}
+
+table,th,td{
+    border: 2px solid black;
+}
+#lista{
+    width: 100vw;
+    text-align: center;
+}
+table{
+    border-collapse:collapse;
+    border: 2px solid black;
+    margin: 30px auto;
+    width: 80%;
+    max-width:600px;
+    background-color: whitesmoke;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.textoCentrado{
+    text-align: center;
+}
+
+.form{
+    align-items:flex-start;
+    justify-content: space-between;
+    height: 200px;
+}
+button{
+    margin:10px
+}
+button:hover{
+    background-color:grey
+}
+.estiloMail{
+    color:blue;
+    font-weight:bold;
+}
+.estiloFecha{
+    color:brown;
+    
+}
+.estiloMensaje{
+    color:green;
+    font-style: italic;
+
+}
+.avatar{
+    max-height: 30px;
+    vertical-align:middle;
+    margin-left: 20px;
+}

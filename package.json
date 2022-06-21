@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "desafio-11-mocks-y-normalizacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidorHBS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon servidorHBS.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.0",
+    "express-handlebars": "^6.0.5",
+    "faker": "^6.6.6",
+    "firebase-admin": "^10.3.0",
+    "mongoose": "^6.3.4",
+    "normalizr": "^3.6.2",
+    "random": "^3.0.6",
+    "socket.io": "^4.4.1",
+    "util": "^0.12.4"
+  }
+}
